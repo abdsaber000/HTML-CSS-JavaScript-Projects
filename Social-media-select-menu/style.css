@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    font-family: sans-serif;
+    background: linear-gradient(135deg, purple 20% , orange 80%);
+}
+
+.menu{
+    background-color: lightgrey;
+    width: 300px;
+    opacity: .3;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu p{
+    margin: 0px 10 px;
+    display: flex;
+    align-items: center;
+}
+
+.menu .fa-solid{
+    transition: transform .2s;
+}
+
+.social-list{
+    background-color: lightgray;
+    width:  300px;
+    padding: 10px;
+    opacity: .3;
+    list-style-type: none;
+}
+
+.social-list li{
+    display:  flex;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+    transition: padding 0.2s;
+}
+.social-list li:hover{
+    background-color: darkgray;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.fa-brands{
+    margin: 0px 10px;
+}
+
+.rotate .fa-solid{
+    transform: rotate(180deg);
+}
+
+.hide{
+    visibility: hidden;
+}
